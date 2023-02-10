@@ -1,5 +1,5 @@
 # Binance monitoring of currency prices
-Checker accounts for radmir.online with using multithreading, object verification and full account information verification
+Script for monitoring currency prices on Binance
 ## Requirements:
 - *pip install cctx*
 ## Settings
