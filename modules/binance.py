@@ -13,7 +13,7 @@ def thread_check_currency_price_change(currency: str, timeout: int) -> None:
 
     :return: None
     """
-    def currency_price_change():
+    def currency_price_change() -> None:
         global max_price
         while True:
             current_price: float = float(exchange.fetch_ticker(currency)['last'])
